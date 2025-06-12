@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Agnihotri - Portfolio</title>
+        <style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+<style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+       .skill-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-links a {
+            color: #2c3e50;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            background: #f8f9fa;
+            transition: background 0.3s;
+        }
+
+        .contact-links a:hover {
+            background: #e9ecef;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VANSH AGNIHOTRI</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! I'm Vansh Agnihotri, a passionate Computer Science student with expertise in multiple programming languages.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I’m Vansh Agnihotri,and I’m passionate about web development. I believe in constantly learning, growing, and challenging myself. This website is a small window into who I am, what I do, and what I care about.
+        A Diploma CSE 2nd Year student in IIMT University , GN campus based in Greater noida. I specialize in HTML, CSS, JavaScript, and have hands-on experience with Python, Java,c programing, and Data Structures in C.and I love building things that make people’s lives better. I’m always exploring new opportunities to collaborate, innovate, and solve real-world problems.
+        Ever since I was a child, I’ve been curious about how things work — from dismantling toys to exploring tech gadgets. That curiosity turned into a passion. Today, I channel that energy into coding. This page is where I share my journey, work, thoughts, and inspirations.
+        I’m currently a student at IIMT University,GN campus ,pursuing Diploma /CSE. I’ve always been interested in computer science feild, and I’ve worked on several academic and personal projects related to it. This site showcases some of my work, achievements, and goals for the future.
+        Welcome to my little corner of the internet! I’m Vansh Agnihotri, someone who’s always up for a challenge, a cup of coffee, and a good playlist. Whether it’s tech, creativity, or just random ideas, I like to explore and experiment. This is where you’ll find bits and pieces of my world.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Advanced programming and problem solving</p>
+            </div>
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>Object-oriented programming</p>
+            </div>
+            <div class="skill-card">
+                <h3>JAVA Script</h3>
+                <p>WEB development</p>
+            </div>
+            <div class="skill-card">
+                <h3>C</h3>
+                <p>System programming</p>
+            </div>
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Web development</p>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>for design web page</p>
+            </div>
+            <div class="skill-card">
+                <h3>DS using C</h3>
+                <p>data aranging/sorting</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-links">
+            <a href="https://www.instagram.com/vansh_agni_03/" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram: @vansh_agni_03
+            </a>
+            <a href="tel:9170301461">
+                <i class="fas fa-phone"></i> Phone: +91 9170301461
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#inbox?compose=DmwnWrRspGnwgSPgCBSfjCtLwxkcmmLbDGwBSzcdphSFHvVqtFvdDqhFdDTqjQSVXtvDqLTSGcMv">
+                <i class="fas fa-envelope"></i> Email: vanshagni3@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/vansh-agnihotri-83548126a/">
+                <i class="fas fa-linkedin"></i> Linkedin:Vansh Agnihotri
+            </a>
+            <a href="https://github.com/Vanshagni3">    
+                <i class="fas fa-github"></i> Github :Vanshagni3
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Vansh Agnihotri | Portfolio</p>
+    </footer>
+
+    <!-- Add Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</body>
+</html>
